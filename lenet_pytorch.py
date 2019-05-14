@@ -53,7 +53,7 @@ loss_func = torch.nn.CrossEntropyLoss()
 optimization = torch.optim.SGD(net.parameters(), lr = 0.001) 
 
 
-numEpochs = 20
+numEpochs = 1
 training_accuracy = []
 validation_accuracy = []
 start_time = time.time()
